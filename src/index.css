@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+@variant dark (&:where(.dark, .dark *));
 *{
   font-family: "Manrope", sans-serif;
   font-weight: 500;
