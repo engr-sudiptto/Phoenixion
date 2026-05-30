@@ -27,7 +27,7 @@ const App = () => {
       }}
     >
       <Toaster />
-      <Navbar/>
+      <Navbar theme={theme} setTheme={setTheme} />
       <Hero />
       <TrustedBy />
       <Services />
