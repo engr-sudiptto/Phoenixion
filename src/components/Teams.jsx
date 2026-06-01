@@ -65,7 +65,11 @@ const Teams = () => {
       {/* ============= member card section =========  */}
       <div className="grid grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 2xl:w-3/4 m-auto gap-5 mt-10 px-3 lg:mt-15 xl:mt-20">
         {teamData.map((member, index) => (
-          <div
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.3, delay: index * 0.2 }}
+            viewport={{ once: true }}
             key={index}
             index={index}
             member={member}
@@ -81,7 +85,7 @@ const Teams = () => {
               </h3>
               <p className="text-sm text-gray-400">{member.degination}</p>
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>
