@@ -1,8 +1,13 @@
 import React from 'react';
+import { motion } from 'motion/react';
 
 const Work = ({ work, index }) => {
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, delay: index * 0.3 }}
+      viewport={{ once: true }}
       className=" rounded-2xl overflow-clip shadow-2xl bg-transparent dark:shadow-blue-200/90 hover:-translate-y-2 duration-300 border-t-2 border-b-2 border-gray-400/50 pt-2"
     >
       <div className="w-full h-60 content-center">
@@ -17,7 +22,7 @@ const Work = ({ work, index }) => {
       <p className="text-sm py-3 px-4 xl:px-6 xl:pb-8 text-gray-500 dark:text-gray-400">
         {work.description}
       </p>
-    </div>
+    </motion.div>
   );
 };
 
