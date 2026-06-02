@@ -48,7 +48,7 @@ const Footer = () => {
           <ul className="mt-5 xl:flex xl:gap-8 xl:items-center">
             <li>
               <a
-                className="text-xs xl:text-sm text-gray-500 dark:text-gray-400"
+                className="text-xs xl:text-sm text-gray-500 dark:text-gray-400 hover:text-orange-600"
                 href="#hero"
               >
                 Home
@@ -56,7 +56,7 @@ const Footer = () => {
             </li>
             <li className="mt-1 xl:m-0">
               <a
-                className="text-xs xl:text-sm text-gray-500 dark:text-gray-400"
+                className="text-xs xl:text-sm text-gray-500 dark:text-gray-400 hover:text-orange-600"
                 href="#services"
               >
                 Services
@@ -64,7 +64,7 @@ const Footer = () => {
             </li>
             <li className="mt-1 xl:m-0">
               <a
-                className="text-xs xl:text-sm text-gray-500 dark:text-gray-400"
+                className="text-xs xl:text-sm text-gray-500 dark:text-gray-400 hover:text-orange-600"
                 href="#ourWork"
               >
                 Our Work
@@ -72,7 +72,7 @@ const Footer = () => {
             </li>
             <li className="mt-1 xl:m-0">
               <a
-                className="text-xs xl:text-sm text-gray-500 dark:text-gray-400"
+                className="text-xs xl:text-sm text-gray-500 dark:text-gray-400 hover:text-orange-600"
                 href="#contact"
               >
                 Testimonial
