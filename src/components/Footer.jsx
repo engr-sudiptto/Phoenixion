@@ -1,12 +1,21 @@
-import React from 'react'
-import logo from '../assets/logo.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faXTwitter, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-
+import React from 'react';
+import logo from '../assets/logo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faFacebook,
+  faXTwitter,
+  faInstagram,
+  faLinkedin,
+} from '@fortawesome/free-brands-svg-icons';
+import { motion } from 'motion/react';
 
 const Footer = () => {
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, delay: 0.8 }}
+      viewport={{ once: true }}
       className="mt-30 bg-blue-100/50 pt-10 px-5 pb-10 dark:bg-blue-900/20"
     >
       <section className="w-full p-5 xl:grid xl:grid-cols-2 2xl:w-3/4 xl:m-auto xl:gap-10">
@@ -97,13 +106,13 @@ const Footer = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  strokeWidth="3"
+                  stroke-width="3"
                   stroke="currentColor"
-                  className="size-4"
+                  class="size-4"
                 >
                   <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
                     d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
                   />
                 </svg>
@@ -139,8 +148,8 @@ const Footer = () => {
           />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
-}
+};
 
-export default Footer
+export default Footer;
