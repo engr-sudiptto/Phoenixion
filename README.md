@@ -12,8 +12,6 @@ A modern, high-performance digital agency website built with **React 19**, **Tai
 
 <br>
 <br>
-<br>
-<br>
 
 ![My Skills](https://skillicons.dev/icons?i=js,react,tailwind,html,css,netlify,vite,npm)
 
@@ -155,10 +153,11 @@ npm run build
 ## 📁 Project Structure
 
 ```bash
-src/
+Phoenixion/
 │
-├── assets/
-├── components/
+├── src
+│   ├── assets/
+│   ├── components/
 ├── App.jsx
 ├── index.css
 └── main.jsx
