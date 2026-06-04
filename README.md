@@ -1,3 +1,5 @@
+![redme img](src/assets/redme1.png)
+
 # 🚀 Phoenixion.ai – Modern Digital Experience Agency
 
 A modern, high-performance digital agency website built with **React 19**, **Tailwind CSS 4**, and **Framer Motion**. Phoenixion.ai delivers a premium user experience through elegant design, smooth animations, responsive layouts, and seamless dark/light theme switching.
@@ -8,6 +10,14 @@ A modern, high-performance digital agency website built with **React 19**, **Tai
 
 ---
 
+<br>
+<br>
+<br>
+<br>
+
+![My Skills](https://skillicons.dev/icons?i=js,react,tailwind,html,css,netlify,vite,npm)
+
+---
 ## 📸 Preview
 
 Phoenixion.ai is designed to showcase modern digital services through a visually engaging and conversion-focused interface.
@@ -177,3 +187,44 @@ This project was created to demonstrate:
 - Blog System
 - SEO Optimization
 
+
+
+---
+
+
+
+
+## 👨‍💻 Author
+
+### **--Sudipto Das--**
+
+**Lead Front-End Engineer | React, Next.js, JS & TS | Bridging UI/UX Architecture with Scalable Styling (Sass & Tailwind CSS)**
+
+#### Skills
+
+- HTML5
+- CSS3
+- JavaScript
+- TypeScript
+- React
+- Redux
+- Next.js
+- Tailwind CSS
+- Bootstrap
+- Node.js
+- Express.js
+- MongoDB
+- Firebase
+- SQL
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub. It helps support future development and motivates me to build more open-source projects.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
